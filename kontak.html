@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hubungi KeyForge.id.">
+  <title>Contact | KeyForge.id</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="aufa_style.css">
+</head>
+<body>
+  <div class="aufa_announce">
+    &#127873; Gratis ongkir Tasikmalaya untuk belanja di atas Rp 300.000 &middot; Kode <b>KEYFORGE10</b> diskon 10%
+  </div>
+
+  <header id="aufa_header">
+    <div class="aufa_container aufa_navbar">
+      <a href="index.html" class="aufa_logo">
+        <i class="aufa_mark">K</i>
+        <em>KEY<span>FORGE</span>.id</em>
+      </a>
+      <button type="button" id="aufa_burger" class="aufa_burger" aria-label="Buka menu">&#9776;</button>
+      <nav id="aufa_nav" class="aufa_nav">
+        <ul class="aufa_menu">
+          <li><a href="index.html" class="aufa_link">Home</a></li>
+          <li><a href="switch.html" class="aufa_link">Katalog Switch</a></li>
+          <li><a href="keycaps.html" class="aufa_link">Katalog Keycaps</a></li>
+          <li><a href="panduan.html" class="aufa_link">Build Guide</a></li>
+          <li><a href="galeri.html" class="aufa_link">Galeri Setup</a></li>
+          <li><a href="faq.html" class="aufa_link">FAQ</a></li>
+          <li><a href="kontak.html" class="aufa_link aufa_active">Contact</a></li>
+        </ul>
+      </nav>
+      <button type="button" id="aufa_theme_btn" class="aufa_icon_btn" aria-label="Ganti tema terang atau gelap" title="Ganti tema">
+        <span id="aufa_theme_icon">&#9728;</span>
+      </button>
+      <button type="button" id="aufa_cart_btn" class="aufa_cart_btn" aria-label="Keranjang">
+        &#128722; <span id="aufa_cart_count">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="aufa_main">
+    <section id="aufa_pagehero" class="aufa_pagehero">
+      <div class="aufa_container">
+        <span class="aufa_tag">Contact</span>
+        <h1 class="aufa_glitch" data-text="Hubungi Kami">Hubungi Kami</h1>
+        <p>Ada pertanyaan produk, jasa rakit, atau kerja sama? Kirim pesan langsung ke pemilik toko.</p>
+      </div>
+    </section>
+
+    <section class="aufa_section">
+      <div class="aufa_container aufa_contact_grid">
+        <form id="aufa_form" class="aufa_form" novalidate>
+          <label for="aufa_nama">Nama Lengkap</label>
+          <input id="aufa_nama" class="aufa_input" type="text" placeholder="Nama kamu">
+          <small class="aufa_err"></small>
+
+          <label for="aufa_email">Email</label>
+          <input id="aufa_email" class="aufa_input" type="email" placeholder="nama@email.com">
+          <small class="aufa_err"></small>
+
+          <label for="aufa_topik">Topik</label>
+          <select id="aufa_topik" class="aufa_input">
+            <option>Pertanyaan Produk</option>
+            <option>Jasa Rakit</option>
+            <option>Retur / Komplain</option>
+            <option>Kerja Sama</option>
+          </select>
+
+          <label for="aufa_pesan">Pesan</label>
+          <textarea id="aufa_pesan" class="aufa_input" rows="5" maxlength="500" placeholder="Tulis pesanmu (min. 10 karakter)"></textarea>
+          <small class="aufa_err"></small>
+          <small id="aufa_char" class="aufa_count">0/500</small>
+
+          <button type="submit" class="aufa_btn">Kirim Pesan</button>
+          <p id="aufa_ok" class="aufa_ok"></p>
+        </form>
+
+        <aside class="aufa_panel">
+          <h3>Info Toko</h3>
+          <p>&#128205; Jl. Pembela Tanah Air No. 177, Tasikmalaya</p>
+          <p>&#9993; hello@keyforge.id</p>
+          <p>&#128222; +62 812-0000-2403</p>
+          <p>&#128337; Senin - Sabtu, 09.00 - 20.00 WIB</p>
+          <div class="aufa_map">Tasikmalaya, Jawa Barat</div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <!-- Drawer Keranjang -->
+  <aside id="aufa_cart" class="aufa_cart">
+    <div class="aufa_cart_head">
+      <h3>Keranjang</h3>
+      <button type="button" id="aufa_cart_close" aria-label="Tutup">&times;</button>
+    </div>
+    <ul id="aufa_cart_list" class="aufa_cart_list"></ul>
+    <div class="aufa_cart_foot">
+      <p>Total: <strong id="aufa_cart_total">Rp 0</strong></p>
+      <button type="button" id="aufa_checkout" class="aufa_btn">Checkout</button>
+      <button type="button" id="aufa_clear" class="aufa_btn aufa_btn_ghost">Kosongkan</button>
+    </div>
+  </aside>
+
+  <div id="aufa_toast" class="aufa_toast"></div>
+
+  <!-- Newsletter -->
+  <section id="aufa_newsletter" class="aufa_section">
+    <div class="aufa_container">
+      <div class="aufa_banner">
+        <div>
+          <h2>Dapat info drop &amp; diskon pertama</h2>
+          <p>Gabung newsletter KeyForge dan dapatkan voucher 10% untuk pembelian pertama.</p>
+        </div>
+        <form id="aufa_news_form" class="aufa_news" novalidate>
+          <input id="aufa_news_email" class="aufa_input" type="email" placeholder="Email kamu" aria-label="Email newsletter">
+          <button class="aufa_btn" type="submit">Berlangganan</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="aufa_footer">
+    <div class="aufa_container aufa_foot_grid">
+      <div>
+        <div class="aufa_logo">
+          <i class="aufa_mark">K</i>
+          <em>KEY<span>FORGE</span>.id</em>
+        </div>
+        <p>Toko spare-part mechanical keyboard dan perakitan custom. Dibuat untuk para geek, oleh geek.</p>
+      </div>
+      <div>
+        <h4>Halaman</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="switch.html">Katalog Switch</a></li>
+          <li><a href="keycaps.html">Katalog Keycaps</a></li>
+          <li><a href="panduan.html">Build Guide</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Lainnya</h4>
+        <ul>
+          <li><a href="galeri.html">Galeri Setup</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="kontak.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontak</h4>
+        <p>
+          Tasikmalaya, Jawa Barat<br>
+          hello@keyforge.id<br>
+          +62 812-0000-2403
+        </p>
+      </div>
+    </div>
+    <div class="aufa_copy">
+      &copy; 2026 KeyForge.id &middot; UTS Pemrograman Internet &middot; Muhammad Aufa Al Achdan &middot; NIM 2403010063 &middot; Kelas C
+    </div>
+  </footer>
+
+  <button type="button" id="aufa_top" class="aufa_top" aria-label="Kembali ke atas">&uarr;</button>
+  <script src="aufa_script.js"></script>
+</body>
+</html>

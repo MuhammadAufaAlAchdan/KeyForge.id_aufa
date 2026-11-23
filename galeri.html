@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Galeri inspirasi setup keyboard.">
+  <title>Galeri Setup | KeyForge.id</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="aufa_style.css">
+</head>
+<body>
+  <div class="aufa_announce">
+    &#127873; Gratis ongkir Tasikmalaya untuk belanja di atas Rp 300.000 &middot; Kode <b>KEYFORGE10</b> diskon 10%
+  </div>
+
+  <header id="aufa_header">
+    <div class="aufa_container aufa_navbar">
+      <a href="index.html" class="aufa_logo">
+        <i class="aufa_mark">K</i>
+        <em>KEY<span>FORGE</span>.id</em>
+      </a>
+      <button type="button" id="aufa_burger" class="aufa_burger" aria-label="Buka menu">&#9776;</button>
+      <nav id="aufa_nav" class="aufa_nav">
+        <ul class="aufa_menu">
+          <li><a href="index.html" class="aufa_link">Home</a></li>
+          <li><a href="switch.html" class="aufa_link">Katalog Switch</a></li>
+          <li><a href="keycaps.html" class="aufa_link">Katalog Keycaps</a></li>
+          <li><a href="panduan.html" class="aufa_link">Build Guide</a></li>
+          <li><a href="galeri.html" class="aufa_link aufa_active">Galeri Setup</a></li>
+          <li><a href="faq.html" class="aufa_link">FAQ</a></li>
+          <li><a href="kontak.html" class="aufa_link">Contact</a></li>
+        </ul>
+      </nav>
+      <button type="button" id="aufa_theme_btn" class="aufa_icon_btn" aria-label="Ganti tema terang atau gelap" title="Ganti tema">
+        <span id="aufa_theme_icon">&#9728;</span>
+      </button>
+      <button type="button" id="aufa_cart_btn" class="aufa_cart_btn" aria-label="Keranjang">
+        &#128722; <span id="aufa_cart_count">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="aufa_main">
+    <section id="aufa_pagehero" class="aufa_pagehero">
+      <div class="aufa_container">
+        <span class="aufa_tag">Gallery</span>
+        <h1 class="aufa_glitch" data-text="Galeri Setup">Galeri Setup</h1>
+        <p>Inspirasi setup meja dari komunitas KeyForge. Klik untuk melihat detail komponen.</p>
+      </div>
+    </section>
+
+    <section class="aufa_section">
+      <div class="aufa_container">
+        <div class="aufa_tabs" id="aufa_tabs">
+          <button type="button" class="aufa_tab aufa_on" data-cat="all">Semua</button>
+          <button type="button" class="aufa_tab" data-cat="RGB">RGB</button>
+          <button type="button" class="aufa_tab" data-cat="Minimalis">Minimalis</button>
+          <button type="button" class="aufa_tab" data-cat="Retro">Retro</button>
+          <button type="button" class="aufa_tab" data-cat="Ergonomis">Ergonomis</button>
+        </div>
+
+        <div id="aufa_gallery" class="aufa_grid">
+          <figure
+            class="aufa_shot"
+            data-cat="RGB"
+            data-title="Midnight Neon"
+            data-desc="Keyboard 75% hot-swap, switch Gateron Oil King, keycaps Cyberpunk Neon, desk mat hitam dan LED strip magenta."
+            data-cols="#ff2bd6,#00f0ff,#0d0d17"
+          >
+            <div class="aufa_mini"></div>
+            <figcaption>
+              <b>Midnight Neon</b>
+              <span>RGB</span>
+            </figcaption>
+          </figure>
+
+          <figure
+            class="aufa_shot"
+            data-cat="Minimalis"
+            data-title="Matcha Desk"
+            data-desc="Layout 65% aluminium putih dengan switch Alpaca dan keycaps hijau matcha. Fokus pada kebersihan meja."
+            data-cols="#8fbf6a,#e9f5db,#3d5a2a"
+          >
+            <div class="aufa_mini"></div>
+            <figcaption>
+              <b>Matcha Desk</b>
+              <span>Minimalis</span>
+            </figcaption>
+          </figure>
+
+          <figure
+            class="aufa_shot"
+            data-cat="Retro"
+            data-title="Retro Terminal"
+            data-desc="Full-size beige dengan switch Kailh Box Jade. Suara klik nyaring yang mengingatkan komputer jadul."
+            data-cols="#b5aa8f,#e6dfc9,#d9534f"
+          >
+            <div class="aufa_mini"></div>
+            <figcaption>
+              <b>Retro Terminal</b>
+              <span>Retro</span>
+            </figcaption>
+          </figure>
+
+          <figure
+            class="aufa_shot"
+            data-cat="Minimalis"
+            data-title="Frost Workstation"
+            data-desc="TKL abu gelap, switch Tecsee Sapphire, keycaps Nordic Frost. Setup kerja harian untuk coding."
+            data-cols="#88c0d0,#2e3440,#eceff4"
+          >
+            <div class="aufa_mini"></div>
+            <figcaption>
+              <b>Frost Workstation</b>
+              <span>Minimalis</span>
+            </figcaption>
+          </figure>
+
+          <figure
+            class="aufa_shot"
+            data-cat="Ergonomis"
+            data-title="Split Ergo"
+            data-desc="Keyboard split 40% dengan thumb cluster, layer custom lewat QMK. Nyaman untuk tangan dan pergelangan."
+            data-cols="#9d5cff,#ff7ab8,#1a1a2e"
+          >
+            <div class="aufa_mini"></div>
+            <figcaption>
+              <b>Split Ergo</b>
+              <span>Ergonomis</span>
+            </figcaption>
+          </figure>
+
+          <figure
+            class="aufa_shot"
+            data-cat="RGB"
+            data-title="Solar Gamer"
+            data-desc="60% dengan switch Kailh Speed Silver, rapid trigger, dan keycaps Solar Flare untuk FPS kompetitif."
+            data-cols="#ff6b35,#ffd23f,#1a0f0a"
+          >
+            <div class="aufa_mini"></div>
+            <figcaption>
+              <b>Solar Gamer</b>
+              <span>RGB</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal Detail Galeri -->
+    <div id="aufa_modal" class="aufa_modal">
+      <div class="aufa_modal_box">
+        <button type="button" id="aufa_modal_x" aria-label="Tutup">&times;</button>
+        <div id="aufa_modal_vis" class="aufa_mini aufa_big"></div>
+        <h3 id="aufa_modal_t"></h3>
+        <p id="aufa_modal_d"></p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Drawer Keranjang -->
+  <aside id="aufa_cart" class="aufa_cart">
+    <div class="aufa_cart_head">
+      <h3>Keranjang</h3>
+      <button type="button" id="aufa_cart_close" aria-label="Tutup">&times;</button>
+    </div>
+    <ul id="aufa_cart_list" class="aufa_cart_list"></ul>
+    <div class="aufa_cart_foot">
+      <p>Total: <strong id="aufa_cart_total">Rp 0</strong></p>
+      <button type="button" id="aufa_checkout" class="aufa_btn">Checkout</button>
+      <button type="button" id="aufa_clear" class="aufa_btn aufa_btn_ghost">Kosongkan</button>
+    </div>
+  </aside>
+
+  <div id="aufa_toast" class="aufa_toast"></div>
+
+  <!-- Newsletter -->
+  <section id="aufa_newsletter" class="aufa_section">
+    <div class="aufa_container">
+      <div class="aufa_banner">
+        <div>
+          <h2>Dapat info drop &amp; diskon pertama</h2>
+          <p>Gabung newsletter KeyForge dan dapatkan voucher 10% untuk pembelian pertama.</p>
+        </div>
+        <form id="aufa_news_form" class="aufa_news" novalidate>
+          <input id="aufa_news_email" class="aufa_input" type="email" placeholder="Email kamu" aria-label="Email newsletter">
+          <button class="aufa_btn" type="submit">Berlangganan</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="aufa_footer">
+    <div class="aufa_container aufa_foot_grid">
+      <div>
+        <div class="aufa_logo">
+          <i class="aufa_mark">K</i>
+          <em>KEY<span>FORGE</span>.id</em>
+        </div>
+        <p>Toko spare-part mechanical keyboard dan perakitan custom. Dibuat untuk para geek, oleh geek.</p>
+      </div>
+      <div>
+        <h4>Halaman</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="switch.html">Katalog Switch</a></li>
+          <li><a href="keycaps.html">Katalog Keycaps</a></li>
+          <li><a href="panduan.html">Build Guide</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Lainnya</h4>
+        <ul>
+          <li><a href="galeri.html">Galeri Setup</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="kontak.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontak</h4>
+        <p>
+          Tasikmalaya, Jawa Barat<br>
+          hello@keyforge.id<br>
+          +62 812-0000-2403
+        </p>
+      </div>
+    </div>
+    <div class="aufa_copy">
+      &copy; 2026 KeyForge.id &middot; UTS Pemrograman Internet &middot; Muhammad Aufa Al Achdan &middot; NIM 2403010063 &middot; Kelas C
+    </div>
+  </footer>
+
+  <button type="button" id="aufa_top" class="aufa_top" aria-label="Kembali ke atas">&uarr;</button>
+  <script src="aufa_script.js"></script>
+</body>
+</html>

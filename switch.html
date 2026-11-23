@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Katalog switch linear, tactile, dan clicky.">
+  <title>Katalog Switch | KeyForge.id</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="aufa_style.css">
+</head>
+<body>
+  <div class="aufa_announce">
+    &#127873; Gratis ongkir Tasikmalaya untuk belanja di atas Rp 300.000 &middot; Kode <b>KEYFORGE10</b> diskon 10%
+  </div>
+
+  <header id="aufa_header">
+    <div class="aufa_container aufa_navbar">
+      <a href="index.html" class="aufa_logo">
+        <i class="aufa_mark">K</i>
+        <em>KEY<span>FORGE</span>.id</em>
+      </a>
+      <button type="button" id="aufa_burger" class="aufa_burger" aria-label="Buka menu">&#9776;</button>
+      <nav id="aufa_nav" class="aufa_nav">
+        <ul class="aufa_menu">
+          <li><a href="index.html" class="aufa_link">Home</a></li>
+          <li><a href="switch.html" class="aufa_link aufa_active">Katalog Switch</a></li>
+          <li><a href="keycaps.html" class="aufa_link">Katalog Keycaps</a></li>
+          <li><a href="panduan.html" class="aufa_link">Build Guide</a></li>
+          <li><a href="galeri.html" class="aufa_link">Galeri Setup</a></li>
+          <li><a href="faq.html" class="aufa_link">FAQ</a></li>
+          <li><a href="kontak.html" class="aufa_link">Contact</a></li>
+        </ul>
+      </nav>
+      <button type="button" id="aufa_theme_btn" class="aufa_icon_btn" aria-label="Ganti tema terang atau gelap" title="Ganti tema">
+        <span id="aufa_theme_icon">&#9728;</span>
+      </button>
+      <button type="button" id="aufa_cart_btn" class="aufa_cart_btn" aria-label="Keranjang">
+        &#128722; <span id="aufa_cart_count">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="aufa_main">
+    <section id="aufa_pagehero" class="aufa_pagehero">
+      <div class="aufa_container">
+        <span class="aufa_tag">Switch</span>
+        <h1 class="aufa_glitch" data-text="Katalog Switch">Katalog Switch</h1>
+        <p>Linear, tactile, atau clicky? Temukan sensasi tekan yang paling cocok dengan jarimu.</p>
+      </div>
+    </section>
+
+    <section class="aufa_section">
+      <div class="aufa_container">
+        <div class="aufa_toolbar">
+          <input type="search" id="aufa_search" class="aufa_input" placeholder="Cari produk..." aria-label="Cari">
+          <select id="aufa_filter" class="aufa_input" aria-label="Filter tipe switch">
+            <option value="all">Semua</option>
+            <option>Linear</option>
+            <option>Tactile</option>
+            <option>Clicky</option>
+          </select>
+          <select id="aufa_sort" class="aufa_input" aria-label="Urutkan produk">
+            <option value="def">Urutkan</option>
+            <option value="asc">Harga: Termurah</option>
+            <option value="desc">Harga: Termahal</option>
+            <option value="az">Nama A-Z</option>
+          </select>
+        </div>
+
+        <p id="aufa_count" class="aufa_count"></p>
+
+        <div id="aufa_grid" class="aufa_grid">
+          <article class="aufa_card" data-name="gateron milky yellow pro" data-type="Linear" data-price="55000">
+            <div class="aufa_visual">
+              <span class="aufa_ribbon">Terlaris</span>
+              <div class="aufa_switch_vis" style="--c: #ffe14d"><i></i></div>
+            </div>
+            <span class="aufa_badge aufa_badge_linear">Linear</span>
+            <h3>Gateron Milky Yellow Pro</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.5 (38 ulasan)</small>
+            </div>
+            <p>Linear paling populer. Halus, murah, cocok untuk pemula dan gaming.</p>
+            <ul class="aufa_spec">
+              <li>Gaya tekan: 50 gf</li>
+              <li>Isi: 10 pcs/pack</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 55.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="sw0" data-name="Gateron Milky Yellow Pro" data-price="55000">+ Keranjang</button>
+            </div>
+          </article>
+
+          <article class="aufa_card" data-name="akko cs jelly pink" data-type="Linear" data-price="78000">
+            <div class="aufa_visual">
+              <div class="aufa_switch_vis" style="--c: #ff7ab8"><i></i></div>
+            </div>
+            <span class="aufa_badge aufa_badge_linear">Linear</span>
+            <h3>Akko CS Jelly Pink</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.8 (91 ulasan)</small>
+            </div>
+            <p>Pre-lubed dari pabrik dengan suara 'thocky' yang lembut.</p>
+            <ul class="aufa_spec">
+              <li>Gaya tekan: 45 gf</li>
+              <li>Isi: 10 pcs/pack</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 78.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="sw1" data-name="Akko CS Jelly Pink" data-price="78000">+ Keranjang</button>
+            </div>
+          </article>
+
+          <article class="aufa_card" data-name="gateron oil king" data-type="Linear" data-price="135000">
+            <div class="aufa_visual">
+              <span class="aufa_ribbon">Baru</span>
+              <div class="aufa_switch_vis" style="--c: #2b2b3a"><i></i></div>
+            </div>
+            <span class="aufa_badge aufa_badge_linear">Linear</span>
+            <h3>Gateron Oil King</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.6 (144 ulasan)</small>
+            </div>
+            <p>Pegas panjang, sensasi buttery smooth dan suara dalam.</p>
+            <ul class="aufa_spec">
+              <li>Gaya tekan: 55 gf</li>
+              <li>Isi: 10 pcs/pack</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 135.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="sw2" data-name="Gateron Oil King" data-price="135000">+ Keranjang</button>
+            </div>
+          </article>
+
+          <article class="aufa_card" data-name="kailh speed silver" data-type="Linear" data-price="95000">
+            <div class="aufa_visual">
+              <div class="aufa_switch_vis" style="--c: #c9d1d9"><i></i></div>
+            </div>
+            <span class="aufa_badge aufa_badge_linear">Linear</span>
+            <h3>Kailh Speed Silver</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.9 (197 ulasan)</small>
+            </div>
+            <p>Travel pendek 1.1 mm, respons secepat kilat untuk FPS.</p>
+            <ul class="aufa_spec">
+              <li>Gaya tekan: 45 gf</li>
+              <li>Isi: 10 pcs/pack</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 95.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="sw3" data-name="Kailh Speed Silver" data-price="95000">+ Keranjang</button>
+            </div>
+          </article>
+
+          <article class="aufa_card" data-name="jwk alpaca v2" data-type="Linear" data-price="145000">
+            <div class="aufa_visual">
+              <span class="aufa_ribbon">Terlaris</span>
+              <div class="aufa_switch_vis" style="--c: #4de1c1"><i></i></div>
+            </div>
+            <span class="aufa_badge aufa_badge_linear">Linear</span>
+            <h3>JWK Alpaca V2</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.7 (40 ulasan)</small>
+            </div>
+            <p>Favorit komunitas, sound 'creamy' dan stabil.</p>
+            <ul class="aufa_spec">
+              <li>Gaya tekan: 62 gf</li>
+              <li>Isi: 10 pcs/pack</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 145.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="sw4" data-name="JWK Alpaca V2" data-price="145000">+ Keranjang</button>
+            </div>
+          </article>
+
+          <article class="aufa_card" data-name="durock t1 tactile" data-type="Tactile" data-price="120000">
+            <div class="aufa_visual">
+              <div class="aufa_switch_vis" style="--c: #9d5cff"><i></i></div>
+            </div>
+            <span class="aufa_badge aufa_badge_tactile">Tactile</span>
+            <h3>Durock T1 Tactile</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.5 (93 ulasan)</small>
+            </div>
+            <p>Tactile bump tegas dan rata, nyaman untuk mengetik panjang.</p>
+            <ul class="aufa_spec">
+              <li>Gaya tekan: 67 gf</li>
+              <li>Isi: 10 pcs/pack</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 120.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="sw5" data-name="Durock T1 Tactile" data-price="120000">+ Keranjang</button>
+            </div>
+          </article>
+
+          <article class="aufa_card" data-name="cherry mx brown" data-type="Tactile" data-price="110000">
+            <div class="aufa_visual">
+              <div class="aufa_switch_vis" style="--c: #a0603a"><i></i></div>
+            </div>
+            <span class="aufa_badge aufa_badge_tactile">Tactile</span>
+            <h3>Cherry MX Brown</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.8 (146 ulasan)</small>
+            </div>
+            <p>Standar klasik tactile dengan bump ringan.</p>
+            <ul class="aufa_spec">
+              <li>Gaya tekan: 55 gf</li>
+              <li>Isi: 10 pcs/pack</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 110.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="sw6" data-name="Cherry MX Brown" data-price="110000">+ Keranjang</button>
+            </div>
+          </article>
+
+          <article class="aufa_card" data-name="drop holy panda" data-type="Tactile" data-price="185000">
+            <div class="aufa_visual">
+              <span class="aufa_ribbon">Baru</span>
+              <div class="aufa_switch_vis" style="--c: #f5f5f5"><i></i></div>
+            </div>
+            <span class="aufa_badge aufa_badge_tactile">Tactile</span>
+            <h3>Drop Holy Panda</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.6 (199 ulasan)</small>
+            </div>
+            <p>Legenda tactile dengan bump besar dan rasa premium.</p>
+            <ul class="aufa_spec">
+              <li>Gaya tekan: 67 gf</li>
+              <li>Isi: 10 pcs/pack</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 185.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="sw7" data-name="Drop Holy Panda" data-price="185000">+ Keranjang</button>
+            </div>
+          </article>
+
+          <article class="aufa_card" data-name="tecsee sapphire" data-type="Tactile" data-price="98000">
+            <div class="aufa_visual">
+              <span class="aufa_ribbon">Terlaris</span>
+              <div class="aufa_switch_vis" style="--c: #3a86ff"><i></i></div>
+            </div>
+            <span class="aufa_badge aufa_badge_tactile">Tactile</span>
+            <h3>Tecsee Sapphire</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.9 (42 ulasan)</small>
+            </div>
+            <p>Tactile bump tajam yang konsisten dan responsif.</p>
+            <ul class="aufa_spec">
+              <li>Gaya tekan: 62 gf</li>
+              <li>Isi: 10 pcs/pack</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 98.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="sw8" data-name="Tecsee Sapphire" data-price="98000">+ Keranjang</button>
+            </div>
+          </article>
+
+          <article class="aufa_card" data-name="kailh box jade" data-type="Clicky" data-price="92000">
+            <div class="aufa_visual">
+              <div class="aufa_switch_vis" style="--c: #2ee6a6"><i></i></div>
+            </div>
+            <span class="aufa_badge aufa_badge_clicky">Clicky</span>
+            <h3>Kailh Box Jade</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.7 (95 ulasan)</small>
+            </div>
+            <p>Klik tajam berbunyi 'click-clack' yang memuaskan.</p>
+            <ul class="aufa_spec">
+              <li>Gaya tekan: 60 gf</li>
+              <li>Isi: 10 pcs/pack</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 92.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="sw9" data-name="Kailh Box Jade" data-price="92000">+ Keranjang</button>
+            </div>
+          </article>
+
+          <article class="aufa_card" data-name="gateron blue" data-type="Clicky" data-price="60000">
+            <div class="aufa_visual">
+              <div class="aufa_switch_vis" style="--c: #1e90ff"><i></i></div>
+            </div>
+            <span class="aufa_badge aufa_badge_clicky">Clicky</span>
+            <h3>Gateron Blue</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.5 (148 ulasan)</small>
+            </div>
+            <p>Clicky klasik dengan klik nyaring ala mesin tik.</p>
+            <ul class="aufa_spec">
+              <li>Gaya tekan: 60 gf</li>
+              <li>Isi: 10 pcs/pack</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 60.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="sw10" data-name="Gateron Blue" data-price="60000">+ Keranjang</button>
+            </div>
+          </article>
+
+          <article class="aufa_card" data-name="kailh box navy" data-type="Clicky" data-price="155000">
+            <div class="aufa_visual">
+              <div class="aufa_switch_vis" style="--c: #0b2a6b"><i></i></div>
+            </div>
+            <span class="aufa_badge aufa_badge_clicky">Clicky</span>
+            <h3>Kailh Box Navy</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.8 (201 ulasan)</small>
+            </div>
+            <p>Clicky paling berat dan paling keras, untuk pencinta suara.</p>
+            <ul class="aufa_spec">
+              <li>Gaya tekan: 75 gf</li>
+              <li>Isi: 10 pcs/pack</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 155.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="sw11" data-name="Kailh Box Navy" data-price="155000">+ Keranjang</button>
+            </div>
+          </article>
+        </div>
+
+        <p id="aufa_empty" class="aufa_empty">Produk tidak ditemukan.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Drawer Keranjang -->
+  <aside id="aufa_cart" class="aufa_cart">
+    <div class="aufa_cart_head">
+      <h3>Keranjang</h3>
+      <button type="button" id="aufa_cart_close" aria-label="Tutup">&times;</button>
+    </div>
+    <ul id="aufa_cart_list" class="aufa_cart_list"></ul>
+    <div class="aufa_cart_foot">
+      <p>Total: <strong id="aufa_cart_total">Rp 0</strong></p>
+      <button type="button" id="aufa_checkout" class="aufa_btn">Checkout</button>
+      <button type="button" id="aufa_clear" class="aufa_btn aufa_btn_ghost">Kosongkan</button>
+    </div>
+  </aside>
+
+  <div id="aufa_toast" class="aufa_toast"></div>
+
+  <!-- Newsletter -->
+  <section id="aufa_newsletter" class="aufa_section">
+    <div class="aufa_container">
+      <div class="aufa_banner">
+        <div>
+          <h2>Dapat info drop &amp; diskon pertama</h2>
+          <p>Gabung newsletter KeyForge dan dapatkan voucher 10% untuk pembelian pertama.</p>
+        </div>
+        <form id="aufa_news_form" class="aufa_news" novalidate>
+          <input id="aufa_news_email" class="aufa_input" type="email" placeholder="Email kamu" aria-label="Email newsletter">
+          <button class="aufa_btn" type="submit">Berlangganan</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="aufa_footer">
+    <div class="aufa_container aufa_foot_grid">
+      <div>
+        <div class="aufa_logo">
+          <i class="aufa_mark">K</i>
+          <em>KEY<span>FORGE</span>.id</em>
+        </div>
+        <p>Toko spare-part mechanical keyboard dan perakitan custom. Dibuat untuk para geek, oleh geek.</p>
+      </div>
+      <div>
+        <h4>Halaman</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="switch.html">Katalog Switch</a></li>
+          <li><a href="keycaps.html">Katalog Keycaps</a></li>
+          <li><a href="panduan.html">Build Guide</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Lainnya</h4>
+        <ul>
+          <li><a href="galeri.html">Galeri Setup</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="kontak.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontak</h4>
+        <p>
+          Tasikmalaya, Jawa Barat<br>
+          hello@keyforge.id<br>
+          +62 812-0000-2403
+        </p>
+      </div>
+    </div>
+    <div class="aufa_copy">
+      &copy; 2026 KeyForge.id &middot; UTS Pemrograman Internet &middot; Muhammad Aufa Al Achdan &middot; NIM 2403010063 &middot; Kelas C
+    </div>
+  </footer>
+
+  <button type="button" id="aufa_top" class="aufa_top" aria-label="Kembali ke atas">&uarr;</button>
+  <script src="aufa_script.js"></script>
+</body>
+</html>

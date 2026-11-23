@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KeyForge.id toko switch, keycaps, dan jasa rakit mechanical keyboard custom.">
+  <title>Home | KeyForge.id</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="aufa_style.css">
+</head>
+<body>
+  <div class="aufa_announce">
+    &#127873; Gratis ongkir Tasikmalaya untuk belanja di atas Rp 300.000 &middot; Kode <b>KEYFORGE10</b> diskon 10%
+  </div>
+
+  <header id="aufa_header">
+    <div class="aufa_container aufa_navbar">
+      <a href="index.html" class="aufa_logo">
+        <i class="aufa_mark">K</i>
+        <em>KEY<span>FORGE</span>.id</em>
+      </a>
+      <button type="button" id="aufa_burger" class="aufa_burger" aria-label="Buka menu">&#9776;</button>
+      <nav id="aufa_nav" class="aufa_nav">
+        <ul class="aufa_menu">
+          <li><a href="index.html" class="aufa_link aufa_active">Home</a></li>
+          <li><a href="switch.html" class="aufa_link">Katalog Switch</a></li>
+          <li><a href="keycaps.html" class="aufa_link">Katalog Keycaps</a></li>
+          <li><a href="panduan.html" class="aufa_link">Build Guide</a></li>
+          <li><a href="galeri.html" class="aufa_link">Galeri Setup</a></li>
+          <li><a href="faq.html" class="aufa_link">FAQ</a></li>
+          <li><a href="kontak.html" class="aufa_link">Contact</a></li>
+        </ul>
+      </nav>
+      <button type="button" id="aufa_theme_btn" class="aufa_icon_btn" aria-label="Ganti tema terang atau gelap" title="Ganti tema">
+        <span id="aufa_theme_icon">&#9728;</span>
+      </button>
+      <button type="button" id="aufa_cart_btn" class="aufa_cart_btn" aria-label="Keranjang">
+        &#128722; <span id="aufa_cart_count">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="aufa_main">
+    <!-- Hero Section -->
+    <section id="aufa_hero" class="aufa_hero">
+      <i class="aufa_blob aufa_blob1"></i>
+      <i class="aufa_blob aufa_blob2"></i>
+      <div class="aufa_container aufa_hero_grid">
+        <div>
+          <span class="aufa_tag">Spare-part &amp; Custom Build</span>
+          <h1>Rakit Keyboard <span class="aufa_grad">Impianmu</span></h1>
+          <p class="aufa_typing">
+            Kami menjual <span id="aufa_typed"></span><span class="aufa_cursor">|</span>
+          </p>
+          <p>Switch, keycaps, dan panduan rakit lengkap untuk membangun mechanical keyboard yang terasa dan terdengar sempurna.</p>
+          <div class="aufa_cta">
+            <a href="switch.html" class="aufa_btn">Lihat Switch</a>
+            <a href="panduan.html" class="aufa_btn aufa_btn_ghost">Mulai Merakit</a>
+          </div>
+        </div>
+
+        <div class="aufa_kb" aria-label="Keyboard interaktif">
+          <div class="aufa_kb_body">
+            <div class="aufa_row">
+              <span class="aufa_key" data-key="Q">Q</span>
+              <span class="aufa_key" data-key="W">W</span>
+              <span class="aufa_key" data-key="E">E</span>
+              <span class="aufa_key" data-key="R">R</span>
+              <span class="aufa_key" data-key="T">T</span>
+              <span class="aufa_key" data-key="Y">Y</span>
+              <span class="aufa_key" data-key="U">U</span>
+              <span class="aufa_key" data-key="I">I</span>
+              <span class="aufa_key" data-key="O">O</span>
+              <span class="aufa_key" data-key="P">P</span>
+            </div>
+            <div class="aufa_row">
+              <span class="aufa_key" data-key="A">A</span>
+              <span class="aufa_key" data-key="S">S</span>
+              <span class="aufa_key" data-key="D">D</span>
+              <span class="aufa_key" data-key="F">F</span>
+              <span class="aufa_key" data-key="G">G</span>
+              <span class="aufa_key" data-key="H">H</span>
+              <span class="aufa_key" data-key="J">J</span>
+              <span class="aufa_key" data-key="K">K</span>
+              <span class="aufa_key" data-key="L">L</span>
+            </div>
+            <div class="aufa_row">
+              <span class="aufa_key" data-key="Z">Z</span>
+              <span class="aufa_key" data-key="X">X</span>
+              <span class="aufa_key" data-key="C">C</span>
+              <span class="aufa_key" data-key="V">V</span>
+              <span class="aufa_key" data-key="B">B</span>
+              <span class="aufa_key" data-key="N">N</span>
+              <span class="aufa_key" data-key="M">M</span>
+            </div>
+            <div class="aufa_row">
+              <span class="aufa_key aufa_space" data-key=" ">SPACE</span>
+            </div>
+          </div>
+          <p class="aufa_hint">Coba ketik di keyboard kamu, tombol akan menyala!</p>
+          <span class="aufa_chip aufa_chip1">&#9889; Hot-swap ready</span>
+          <span class="aufa_chip aufa_chip2">&#9733; 4.9 rating toko</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brand Marquee -->
+    <div class="aufa_marquee" aria-hidden="true">
+      <div class="aufa_track">
+        <span>GATERON</span>
+        <span>KAILH</span>
+        <span>CHERRY</span>
+        <span>AKKO</span>
+        <span>DUROCK</span>
+        <span>TECSEE</span>
+        <span>JWK</span>
+        <span>DROP</span>
+        <span>GATERON</span>
+        <span>KAILH</span>
+        <span>CHERRY</span>
+        <span>AKKO</span>
+        <span>DUROCK</span>
+        <span>TECSEE</span>
+        <span>JWK</span>
+        <span>DROP</span>
+      </div>
+    </div>
+
+    <!-- Statistik -->
+    <section class="aufa_section">
+      <div class="aufa_container">
+        <div class="aufa_stats">
+          <div>
+            <b class="aufa_count_up" data-to="1200">0</b>
+            <span>Pelanggan</span>
+          </div>
+          <div>
+            <b class="aufa_count_up" data-to="45">0</b>
+            <span>Jenis Switch</span>
+          </div>
+          <div>
+            <b class="aufa_count_up" data-to="320">0</b>
+            <span>Build Selesai</span>
+          </div>
+          <div>
+            <b class="aufa_count_up" data-to="98">0</b>
+            <span>% Puas</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Produk Unggulan -->
+    <section class="aufa_section">
+      <div class="aufa_container">
+        <h2 class="aufa_title">Produk <span class="aufa_neon">Unggulan</span></h2>
+        <p class="aufa_sub">Pilihan favorit komunitas yang paling sering masuk keranjang minggu ini.</p>
+
+        <div class="aufa_grid">
+          <article class="aufa_card" data-name="gateron oil king" data-type="Linear" data-price="135000">
+            <div class="aufa_visual">
+              <span class="aufa_ribbon">Terlaris</span>
+              <div class="aufa_switch_vis" style="--c: #2b2b3a"><i></i></div>
+            </div>
+            <span class="aufa_badge aufa_badge_linear">Linear</span>
+            <h3>Gateron Oil King</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.5 (38 ulasan)</small>
+            </div>
+            <p>Pegas panjang, sensasi buttery smooth dan suara dalam.</p>
+            <ul class="aufa_spec">
+              <li>Gaya tekan: 55 gf</li>
+              <li>Isi: 10 pcs/pack</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 135.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="sw2" data-name="Gateron Oil King" data-price="135000">+ Keranjang</button>
+            </div>
+          </article>
+
+          <article class="aufa_card" data-name="jwk alpaca v2" data-type="Linear" data-price="145000">
+            <div class="aufa_visual">
+              <span class="aufa_ribbon">Terlaris</span>
+              <div class="aufa_switch_vis" style="--c: #4de1c1"><i></i></div>
+            </div>
+            <span class="aufa_badge aufa_badge_linear">Linear</span>
+            <h3>JWK Alpaca V2</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.7 (40 ulasan)</small>
+            </div>
+            <p>Favorit komunitas, sound 'creamy' dan stabil.</p>
+            <ul class="aufa_spec">
+              <li>Gaya tekan: 62 gf</li>
+              <li>Isi: 10 pcs/pack</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 145.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="sw4" data-name="JWK Alpaca V2" data-price="145000">+ Keranjang</button>
+            </div>
+          </article>
+
+          <article class="aufa_card" data-name="cyberpunk neon" data-type="Cherry" data-price="320000">
+            <div class="aufa_visual">
+              <div class="aufa_kc_vis">
+                <b style="background: #0d0d17; color: #ff2bd6">E</b>
+                <b style="background: #ff2bd6; color: #00f0ff">S</b>
+                <b style="background: #00f0ff; color: #f5ff00">C</b>
+                <b style="background: #f5ff00; color: #0d0d17">1</b>
+                <b style="background: #0d0d17; color: #ff2bd6">W</b>
+                <b style="background: #ff2bd6; color: #00f0ff">A</b>
+                <b style="background: #00f0ff; color: #f5ff00">S</b>
+                <b style="background: #f5ff00; color: #0d0d17">D</b>
+              </div>
+            </div>
+            <span class="aufa_badge">Cherry &middot; PBT</span>
+            <h3>Cyberpunk Neon</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.9 (197 ulasan)</small>
+            </div>
+            <p>Tema malam kota futuristik dengan aksen neon.</p>
+            <ul class="aufa_spec">
+              <li>Isi: 130+ keycaps</li>
+              <li>Profil: Cherry</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 320.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="kc0" data-name="Cyberpunk Neon" data-price="320000">+ Keranjang</button>
+            </div>
+          </article>
+        </div>
+
+        <p class="aufa_center">
+          <a href="switch.html" class="aufa_btn aufa_btn_ghost">Semua Switch</a>
+          <a href="keycaps.html" class="aufa_btn aufa_btn_ghost">Semua Keycaps</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Keunggulan -->
+    <section class="aufa_section aufa_alt">
+      <div class="aufa_container">
+        <h2 class="aufa_title">Kenapa <span class="aufa_neon">KeyForge?</span></h2>
+        <p class="aufa_sub">Kami bukan sekadar toko. Kami ikut memastikan keyboardmu terasa sempurna.</p>
+        <div class="aufa_grid aufa_grid3">
+          <div class="aufa_feature">
+            <i>&#9889;</i>
+            <h3>Produk Terkurasi</h3>
+            <p>Setiap switch dan keycaps sudah kami uji langsung sebelum dijual.</p>
+          </div>
+          <div class="aufa_feature">
+            <i>&#128295;</i>
+            <h3>Jasa Rakit &amp; Lube</h3>
+            <p>Tidak mau repot? Tim kami siap merakit dan men-tuning keyboardmu.</p>
+          </div>
+          <div class="aufa_feature">
+            <i>&#128230;</i>
+            <h3>Aman &amp; Bergaransi</h3>
+            <p>Packing tebal anti-benturan dan garansi 30 hari untuk cacat pabrik.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cara Belanja -->
+    <section class="aufa_section">
+      <div class="aufa_container">
+        <h2 class="aufa_title">Cara <span class="aufa_neon">Belanja</span></h2>
+        <p class="aufa_sub">Tiga langkah mudah dari pilih sampai barang sampai di rumah.</p>
+        <div class="aufa_grid aufa_grid3">
+          <div class="aufa_how">
+            <b>1</b>
+            <h3>Pilih Produk</h3>
+            <p>Jelajahi katalog switch dan keycaps, pakai filter untuk menemukan yang cocok.</p>
+          </div>
+          <div class="aufa_how">
+            <b>2</b>
+            <h3>Masukkan Keranjang</h3>
+            <p>Atur jumlah dan cek total belanja secara langsung di keranjang.</p>
+          </div>
+          <div class="aufa_how">
+            <b>3</b>
+            <h3>Checkout &amp; Terima</h3>
+            <p>Bayar lewat transfer, e-wallet, atau QRIS. Barang dikemas aman dan dikirim cepat.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimoni -->
+    <section class="aufa_section">
+      <div class="aufa_container">
+        <h2 class="aufa_title">Kata <span class="aufa_neon">Mereka</span></h2>
+        <div class="aufa_slider" id="aufa_slider">
+          <blockquote class="aufa_slide aufa_show">
+            "Switch Oil King-nya halus banget, packing rapi. Auto langganan!"
+            <cite>- Rizky, Bandung</cite>
+          </blockquote>
+          <blockquote class="aufa_slide">
+            "Panduan rakitnya jelas, build pertama saya langsung sukses tanpa solder."
+            <cite>- Dewi, Tasikmalaya</cite>
+          </blockquote>
+          <blockquote class="aufa_slide">
+            "Keycaps Cyberpunk Neon kualitas PBT-nya mantap, warnanya tajam."
+            <cite>- Fajar, Jakarta</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Drawer Keranjang -->
+  <aside id="aufa_cart" class="aufa_cart">
+    <div class="aufa_cart_head">
+      <h3>Keranjang</h3>
+      <button type="button" id="aufa_cart_close" aria-label="Tutup">&times;</button>
+    </div>
+    <ul id="aufa_cart_list" class="aufa_cart_list"></ul>
+    <div class="aufa_cart_foot">
+      <p>Total: <strong id="aufa_cart_total">Rp 0</strong></p>
+      <button type="button" id="aufa_checkout" class="aufa_btn">Checkout</button>
+      <button type="button" id="aufa_clear" class="aufa_btn aufa_btn_ghost">Kosongkan</button>
+    </div>
+  </aside>
+
+  <div id="aufa_toast" class="aufa_toast"></div>
+
+  <!-- Newsletter -->
+  <section id="aufa_newsletter" class="aufa_section">
+    <div class="aufa_container">
+      <div class="aufa_banner">
+        <div>
+          <h2>Dapat info drop &amp; diskon pertama</h2>
+          <p>Gabung newsletter KeyForge dan dapatkan voucher 10% untuk pembelian pertama.</p>
+        </div>
+        <form id="aufa_news_form" class="aufa_news" novalidate>
+          <input id="aufa_news_email" class="aufa_input" type="email" placeholder="Email kamu" aria-label="Email newsletter">
+          <button class="aufa_btn" type="submit">Berlangganan</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="aufa_footer">
+    <div class="aufa_container aufa_foot_grid">
+      <div>
+        <div class="aufa_logo">
+          <i class="aufa_mark">K</i>
+          <em>KEY<span>FORGE</span>.id</em>
+        </div>
+        <p>Toko spare-part mechanical keyboard dan perakitan custom. Dibuat untuk para geek, oleh geek.</p>
+      </div>
+      <div>
+        <h4>Halaman</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="switch.html">Katalog Switch</a></li>
+          <li><a href="keycaps.html">Katalog Keycaps</a></li>
+          <li><a href="panduan.html">Build Guide</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Lainnya</h4>
+        <ul>
+          <li><a href="galeri.html">Galeri Setup</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="kontak.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontak</h4>
+        <p>
+          Tasikmalaya, Jawa Barat<br>
+          hello@keyforge.id<br>
+          +62 812-0000-2403
+        </p>
+      </div>
+    </div>
+    <div class="aufa_copy">
+      &copy; 2026 KeyForge.id &middot; UTS Pemrograman Internet &middot; Muhammad Aufa Al Achdan &middot; NIM 2403010063 &middot; Kelas C
+    </div>
+  </footer>
+
+  <button type="button" id="aufa_top" class="aufa_top" aria-label="Kembali ke atas">&uarr;</button>
+  <script src="aufa_script.js"></script>
+</body>
+</html>

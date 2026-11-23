@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Panduan lengkap merakit mechanical keyboard.">
+  <title>Panduan Rakit | KeyForge.id</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="aufa_style.css">
+</head>
+<body>
+  <div class="aufa_announce">
+    &#127873; Gratis ongkir Tasikmalaya untuk belanja di atas Rp 300.000 &middot; Kode <b>KEYFORGE10</b> diskon 10%
+  </div>
+
+  <header id="aufa_header">
+    <div class="aufa_container aufa_navbar">
+      <a href="index.html" class="aufa_logo">
+        <i class="aufa_mark">K</i>
+        <em>KEY<span>FORGE</span>.id</em>
+      </a>
+      <button type="button" id="aufa_burger" class="aufa_burger" aria-label="Buka menu">&#9776;</button>
+      <nav id="aufa_nav" class="aufa_nav">
+        <ul class="aufa_menu">
+          <li><a href="index.html" class="aufa_link">Home</a></li>
+          <li><a href="switch.html" class="aufa_link">Katalog Switch</a></li>
+          <li><a href="keycaps.html" class="aufa_link">Katalog Keycaps</a></li>
+          <li><a href="panduan.html" class="aufa_link aufa_active">Build Guide</a></li>
+          <li><a href="galeri.html" class="aufa_link">Galeri Setup</a></li>
+          <li><a href="faq.html" class="aufa_link">FAQ</a></li>
+          <li><a href="kontak.html" class="aufa_link">Contact</a></li>
+        </ul>
+      </nav>
+      <button type="button" id="aufa_theme_btn" class="aufa_icon_btn" aria-label="Ganti tema terang atau gelap" title="Ganti tema">
+        <span id="aufa_theme_icon">&#9728;</span>
+      </button>
+      <button type="button" id="aufa_cart_btn" class="aufa_cart_btn" aria-label="Keranjang">
+        &#128722; <span id="aufa_cart_count">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="aufa_main">
+    <section id="aufa_pagehero" class="aufa_pagehero">
+      <div class="aufa_container">
+        <span class="aufa_tag">Build Guide</span>
+        <h1 class="aufa_glitch" data-text="Panduan Rakit">Panduan Rakit</h1>
+        <p>Delapan langkah membangun mechanical keyboard pertamamu. Centang setiap langkah yang sudah selesai.</p>
+      </div>
+    </section>
+
+    <section class="aufa_section">
+      <div class="aufa_container aufa_guide_grid">
+        <div>
+          <div class="aufa_progress">
+            <div id="aufa_bar" class="aufa_bar"></div>
+          </div>
+          <p id="aufa_prog_txt" class="aufa_count">0 dari 8 langkah selesai</p>
+
+          <ol class="aufa_steps">
+            <li class="aufa_step">
+              <label>
+                <input type="checkbox" class="aufa_check">
+                <span class="aufa_num">1</span>
+                <div>
+                  <h3>Tentukan Layout &amp; Budget</h3>
+                  <p>Pilih ukuran (60%, 65%, 75%, TKL, full-size). Pemula disarankan 65% atau 75% hot-swap dengan budget Rp 800 ribu - 1,5 juta.</p>
+                </div>
+              </label>
+            </li>
+            <li class="aufa_step">
+              <label>
+                <input type="checkbox" class="aufa_check">
+                <span class="aufa_num">2</span>
+                <div>
+                  <h3>Siapkan Komponen</h3>
+                  <p>Case, PCB (hot-swap atau solder), plate, stabilizer, switch, keycaps, dan kabel USB-C. Pastikan semuanya satu layout.</p>
+                </div>
+              </label>
+            </li>
+            <li class="aufa_step">
+              <label>
+                <input type="checkbox" class="aufa_check">
+                <span class="aufa_num">3</span>
+                <div>
+                  <h3>Pasang Stabilizer</h3>
+                  <p>Lube dan band-aid mod pada stabilizer untuk menghilangkan rattle, lalu klip atau screw-in ke PCB.</p>
+                </div>
+              </label>
+            </li>
+            <li class="aufa_step">
+              <label>
+                <input type="checkbox" class="aufa_check">
+                <span class="aufa_num">4</span>
+                <div>
+                  <h3>Pasang Switch ke Plate</h3>
+                  <p>Tekan switch ke plate sampai klik, pastikan kaki switch lurus. Pasang di empat sudut dulu agar plate stabil.</p>
+                </div>
+              </label>
+            </li>
+            <li class="aufa_step">
+              <label>
+                <input type="checkbox" class="aufa_check">
+                <span class="aufa_num">5</span>
+                <div>
+                  <h3>Pasang Plate ke PCB</h3>
+                  <p>Masukkan kaki switch ke soket hot-swap (atau solder jika PCB non hot-swap). Cek tidak ada kaki yang bengkok.</p>
+                </div>
+              </label>
+            </li>
+            <li class="aufa_step">
+              <label>
+                <input type="checkbox" class="aufa_check">
+                <span class="aufa_num">6</span>
+                <div>
+                  <h3>Test Sebelum Dirakit</h3>
+                  <p>Sambungkan USB dan uji semua tombol dengan situs Keyboard Tester. Ganti switch bermasalah sekarang, bukan nanti.</p>
+                </div>
+              </label>
+            </li>
+            <li class="aufa_step">
+              <label>
+                <input type="checkbox" class="aufa_check">
+                <span class="aufa_num">7</span>
+                <div>
+                  <h3>Pasang ke Case &amp; Keycaps</h3>
+                  <p>Pasang foam, gasket, dan screw case. Terakhir tekan keycaps sesuai profil baris dari R1 sampai R4.</p>
+                </div>
+              </label>
+            </li>
+            <li class="aufa_step">
+              <label>
+                <input type="checkbox" class="aufa_check">
+                <span class="aufa_num">8</span>
+                <div>
+                  <h3>Flash Firmware &amp; Kustomisasi</h3>
+                  <p>Gunakan VIA atau QMK untuk atur layer, macro, dan lighting. Selesai, selamat mengetik!</p>
+                </div>
+              </label>
+            </li>
+          </ol>
+        </div>
+
+        <aside class="aufa_panel">
+          <h3>Alat yang Dibutuhkan</h3>
+          <ul class="aufa_tools">
+            <li>Keycap &amp; switch puller</li>
+            <li>Obeng kecil</li>
+            <li>Kuas &amp; lube (Krytox 205g0)</li>
+            <li>Tweezer</li>
+            <li>Solder (opsional)</li>
+          </ul>
+
+          <h3>Kalkulator Budget</h3>
+          <label>
+            Case + PCB
+            <input type="number" class="aufa_input aufa_bud" value="600000" min="0">
+          </label>
+          <label>
+            Switch (10 pcs/pack)
+            <input type="number" class="aufa_input aufa_bud" value="110000" min="0">
+          </label>
+          <label>
+            Keycaps
+            <input type="number" class="aufa_input aufa_bud" value="300000" min="0">
+          </label>
+          <label>
+            Stabilizer &amp; lainnya
+            <input type="number" class="aufa_input aufa_bud" value="120000" min="0">
+          </label>
+          <p class="aufa_total">Estimasi: <strong id="aufa_budget">Rp 0</strong></p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <!-- Drawer Keranjang -->
+  <aside id="aufa_cart" class="aufa_cart">
+    <div class="aufa_cart_head">
+      <h3>Keranjang</h3>
+      <button type="button" id="aufa_cart_close" aria-label="Tutup">&times;</button>
+    </div>
+    <ul id="aufa_cart_list" class="aufa_cart_list"></ul>
+    <div class="aufa_cart_foot">
+      <p>Total: <strong id="aufa_cart_total">Rp 0</strong></p>
+      <button type="button" id="aufa_checkout" class="aufa_btn">Checkout</button>
+      <button type="button" id="aufa_clear" class="aufa_btn aufa_btn_ghost">Kosongkan</button>
+    </div>
+  </aside>
+
+  <div id="aufa_toast" class="aufa_toast"></div>
+
+  <!-- Newsletter -->
+  <section id="aufa_newsletter" class="aufa_section">
+    <div class="aufa_container">
+      <div class="aufa_banner">
+        <div>
+          <h2>Dapat info drop &amp; diskon pertama</h2>
+          <p>Gabung newsletter KeyForge dan dapatkan voucher 10% untuk pembelian pertama.</p>
+        </div>
+        <form id="aufa_news_form" class="aufa_news" novalidate>
+          <input id="aufa_news_email" class="aufa_input" type="email" placeholder="Email kamu" aria-label="Email newsletter">
+          <button class="aufa_btn" type="submit">Berlangganan</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="aufa_footer">
+    <div class="aufa_container aufa_foot_grid">
+      <div>
+        <div class="aufa_logo">
+          <i class="aufa_mark">K</i>
+          <em>KEY<span>FORGE</span>.id</em>
+        </div>
+        <p>Toko spare-part mechanical keyboard dan perakitan custom. Dibuat untuk para geek, oleh geek.</p>
+      </div>
+      <div>
+        <h4>Halaman</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="switch.html">Katalog Switch</a></li>
+          <li><a href="keycaps.html">Katalog Keycaps</a></li>
+          <li><a href="panduan.html">Build Guide</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Lainnya</h4>
+        <ul>
+          <li><a href="galeri.html">Galeri Setup</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="kontak.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontak</h4>
+        <p>
+          Tasikmalaya, Jawa Barat<br>
+          hello@keyforge.id<br>
+          +62 812-0000-2403
+        </p>
+      </div>
+    </div>
+    <div class="aufa_copy">
+      &copy; 2026 KeyForge.id &middot; UTS Pemrograman Internet &middot; Muhammad Aufa Al Achdan &middot; NIM 2403010063 &middot; Kelas C
+    </div>
+  </footer>
+
+  <button type="button" id="aufa_top" class="aufa_top" aria-label="Kembali ke atas">&uarr;</button>
+  <script src="aufa_script.js"></script>
+</body>
+</html>

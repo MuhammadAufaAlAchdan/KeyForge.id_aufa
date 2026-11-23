@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Katalog keycaps PBT dan ABS bertema.">
+  <title>Katalog Keycaps | KeyForge.id</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="aufa_style.css">
+</head>
+<body>
+  <div class="aufa_announce">
+    &#127873; Gratis ongkir Tasikmalaya untuk belanja di atas Rp 300.000 &middot; Kode <b>KEYFORGE10</b> diskon 10%
+  </div>
+
+  <header id="aufa_header">
+    <div class="aufa_container aufa_navbar">
+      <a href="index.html" class="aufa_logo">
+        <i class="aufa_mark">K</i>
+        <em>KEY<span>FORGE</span>.id</em>
+      </a>
+      <button type="button" id="aufa_burger" class="aufa_burger" aria-label="Buka menu">&#9776;</button>
+      <nav id="aufa_nav" class="aufa_nav">
+        <ul class="aufa_menu">
+          <li><a href="index.html" class="aufa_link">Home</a></li>
+          <li><a href="switch.html" class="aufa_link">Katalog Switch</a></li>
+          <li><a href="keycaps.html" class="aufa_link aufa_active">Katalog Keycaps</a></li>
+          <li><a href="panduan.html" class="aufa_link">Build Guide</a></li>
+          <li><a href="galeri.html" class="aufa_link">Galeri Setup</a></li>
+          <li><a href="faq.html" class="aufa_link">FAQ</a></li>
+          <li><a href="kontak.html" class="aufa_link">Contact</a></li>
+        </ul>
+      </nav>
+      <button type="button" id="aufa_theme_btn" class="aufa_icon_btn" aria-label="Ganti tema terang atau gelap" title="Ganti tema">
+        <span id="aufa_theme_icon">&#9728;</span>
+      </button>
+      <button type="button" id="aufa_cart_btn" class="aufa_cart_btn" aria-label="Keranjang">
+        &#128722; <span id="aufa_cart_count">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="aufa_main">
+    <section id="aufa_pagehero" class="aufa_pagehero">
+      <div class="aufa_container">
+        <span class="aufa_tag">Keycaps</span>
+        <h1 class="aufa_glitch" data-text="Katalog Keycaps">Katalog Keycaps</h1>
+        <p>Ubah tampilan keyboardmu dengan set keycaps bertema, dari neon cyberpunk hingga retro.</p>
+      </div>
+    </section>
+
+    <section class="aufa_section">
+      <div class="aufa_container">
+        <div class="aufa_toolbar">
+          <input type="search" id="aufa_search" class="aufa_input" placeholder="Cari produk..." aria-label="Cari">
+          <select id="aufa_filter" class="aufa_input" aria-label="Filter profil keycaps">
+            <option value="all">Semua</option>
+            <option>Cherry</option>
+            <option>OEM</option>
+            <option>XDA</option>
+            <option>SA</option>
+            <option>MT3</option>
+          </select>
+          <select id="aufa_sort" class="aufa_input" aria-label="Urutkan produk">
+            <option value="def">Urutkan</option>
+            <option value="asc">Harga: Termurah</option>
+            <option value="desc">Harga: Termahal</option>
+            <option value="az">Nama A-Z</option>
+          </select>
+        </div>
+
+        <p id="aufa_count" class="aufa_count"></p>
+
+        <div id="aufa_grid" class="aufa_grid">
+          <article class="aufa_card" data-name="cyberpunk neon" data-type="Cherry" data-price="320000">
+            <div class="aufa_visual">
+              <div class="aufa_kc_vis">
+                <b style="background: #0d0d17; color: #ff2bd6">E</b>
+                <b style="background: #ff2bd6; color: #00f0ff">S</b>
+                <b style="background: #00f0ff; color: #f5ff00">C</b>
+                <b style="background: #f5ff00; color: #0d0d17">1</b>
+                <b style="background: #0d0d17; color: #ff2bd6">W</b>
+                <b style="background: #ff2bd6; color: #00f0ff">A</b>
+                <b style="background: #00f0ff; color: #f5ff00">S</b>
+                <b style="background: #f5ff00; color: #0d0d17">D</b>
+              </div>
+            </div>
+            <span class="aufa_badge">Cherry &middot; PBT</span>
+            <h3>Cyberpunk Neon</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.9 (197 ulasan)</small>
+            </div>
+            <p>Tema malam kota futuristik dengan aksen neon.</p>
+            <ul class="aufa_spec">
+              <li>Isi: 130+ keycaps</li>
+              <li>Profil: Cherry</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 320.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="kc0" data-name="Cyberpunk Neon" data-price="320000">+ Keranjang</button>
+            </div>
+          </article>
+
+          <article class="aufa_card" data-name="matcha dream" data-type="XDA" data-price="285000">
+            <div class="aufa_visual">
+              <span class="aufa_ribbon">Terlaris</span>
+              <div class="aufa_kc_vis">
+                <b style="background: #e9f5db; color: #8fbf6a">E</b>
+                <b style="background: #8fbf6a; color: #3d5a2a">S</b>
+                <b style="background: #3d5a2a; color: #f7fff0">C</b>
+                <b style="background: #f7fff0; color: #e9f5db">1</b>
+                <b style="background: #e9f5db; color: #8fbf6a">W</b>
+                <b style="background: #8fbf6a; color: #3d5a2a">A</b>
+                <b style="background: #3d5a2a; color: #f7fff0">S</b>
+                <b style="background: #f7fff0; color: #e9f5db">D</b>
+              </div>
+            </div>
+            <span class="aufa_badge">XDA &middot; PBT</span>
+            <h3>Matcha Dream</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.7 (40 ulasan)</small>
+            </div>
+            <p>Palet hijau teh yang tenang dan segar.</p>
+            <ul class="aufa_spec">
+              <li>Isi: 130+ keycaps</li>
+              <li>Profil: XDA</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 285.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="kc1" data-name="Matcha Dream" data-price="285000">+ Keranjang</button>
+            </div>
+          </article>
+
+          <article class="aufa_card" data-name="dracula dark" data-type="Cherry" data-price="350000">
+            <div class="aufa_visual">
+              <div class="aufa_kc_vis">
+                <b style="background: #282a36; color: #bd93f9">E</b>
+                <b style="background: #bd93f9; color: #ff79c6">S</b>
+                <b style="background: #ff79c6; color: #50fa7b">C</b>
+                <b style="background: #50fa7b; color: #282a36">1</b>
+                <b style="background: #282a36; color: #bd93f9">W</b>
+                <b style="background: #bd93f9; color: #ff79c6">A</b>
+                <b style="background: #ff79c6; color: #50fa7b">S</b>
+                <b style="background: #50fa7b; color: #282a36">D</b>
+              </div>
+            </div>
+            <span class="aufa_badge">Cherry &middot; PBT</span>
+            <h3>Dracula Dark</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.5 (93 ulasan)</small>
+            </div>
+            <p>Terinspirasi tema editor kode paling terkenal.</p>
+            <ul class="aufa_spec">
+              <li>Isi: 130+ keycaps</li>
+              <li>Profil: Cherry</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 350.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="kc2" data-name="Dracula Dark" data-price="350000">+ Keranjang</button>
+            </div>
+          </article>
+
+          <article class="aufa_card" data-name="nordic frost" data-type="OEM" data-price="270000">
+            <div class="aufa_visual">
+              <div class="aufa_kc_vis">
+                <b style="background: #2e3440; color: #88c0d0">E</b>
+                <b style="background: #88c0d0; color: #81a1c1">S</b>
+                <b style="background: #81a1c1; color: #eceff4">C</b>
+                <b style="background: #eceff4; color: #2e3440">1</b>
+                <b style="background: #2e3440; color: #88c0d0">W</b>
+                <b style="background: #88c0d0; color: #81a1c1">A</b>
+                <b style="background: #81a1c1; color: #eceff4">S</b>
+                <b style="background: #eceff4; color: #2e3440">D</b>
+              </div>
+            </div>
+            <span class="aufa_badge">OEM &middot; PBT</span>
+            <h3>Nordic Frost</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.8 (146 ulasan)</small>
+            </div>
+            <p>Biru es dingin dengan tampilan bersih dan profesional.</p>
+            <ul class="aufa_spec">
+              <li>Isi: 130+ keycaps</li>
+              <li>Profil: OEM</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 270.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="kc3" data-name="Nordic Frost" data-price="270000">+ Keranjang</button>
+            </div>
+          </article>
+
+          <article class="aufa_card" data-name="sakura bloom" data-type="XDA" data-price="300000">
+            <div class="aufa_visual">
+              <span class="aufa_ribbon">Baru</span>
+              <div class="aufa_kc_vis">
+                <b style="background: #ffe4ec; color: #ff9ebd">E</b>
+                <b style="background: #ff9ebd; color: #d6336c">S</b>
+                <b style="background: #d6336c; color: #ffffff">C</b>
+                <b style="background: #ffffff; color: #ffe4ec">1</b>
+                <b style="background: #ffe4ec; color: #ff9ebd">W</b>
+                <b style="background: #ff9ebd; color: #d6336c">A</b>
+                <b style="background: #d6336c; color: #ffffff">S</b>
+                <b style="background: #ffffff; color: #ffe4ec">D</b>
+              </div>
+            </div>
+            <span class="aufa_badge">XDA &middot; PBT</span>
+            <h3>Sakura Bloom</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.6 (199 ulasan)</small>
+            </div>
+            <p>Pink pastel lembut yang manis untuk setup imut.</p>
+            <ul class="aufa_spec">
+              <li>Isi: 130+ keycaps</li>
+              <li>Profil: XDA</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 300.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="kc4" data-name="Sakura Bloom" data-price="300000">+ Keranjang</button>
+            </div>
+          </article>
+
+          <article class="aufa_card" data-name="retro 9009" data-type="SA" data-price="890000">
+            <div class="aufa_visual">
+              <span class="aufa_ribbon">Terlaris</span>
+              <div class="aufa_kc_vis">
+                <b style="background: #e6dfc9; color: #b5aa8f">E</b>
+                <b style="background: #b5aa8f; color: #d9534f">S</b>
+                <b style="background: #d9534f; color: #4a4a4a">C</b>
+                <b style="background: #4a4a4a; color: #e6dfc9">1</b>
+                <b style="background: #e6dfc9; color: #b5aa8f">W</b>
+                <b style="background: #b5aa8f; color: #d9534f">A</b>
+                <b style="background: #d9534f; color: #4a4a4a">S</b>
+                <b style="background: #4a4a4a; color: #e6dfc9">D</b>
+              </div>
+            </div>
+            <span class="aufa_badge">SA &middot; ABS</span>
+            <h3>Retro 9009</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.9 (42 ulasan)</small>
+            </div>
+            <p>Klasik beige ala komputer era 90-an dengan profil SA tinggi.</p>
+            <ul class="aufa_spec">
+              <li>Isi: 130+ keycaps</li>
+              <li>Profil: SA</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 890.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="kc5" data-name="Retro 9009" data-price="890000">+ Keranjang</button>
+            </div>
+          </article>
+
+          <article class="aufa_card" data-name="black ice" data-type="Cherry" data-price="240000">
+            <div class="aufa_visual">
+              <div class="aufa_kc_vis">
+                <b style="background: #0a0a0a; color: #2d2d2d">E</b>
+                <b style="background: #2d2d2d; color: #9ad1ff">S</b>
+                <b style="background: #9ad1ff; color: #e0e0e0">C</b>
+                <b style="background: #e0e0e0; color: #0a0a0a">1</b>
+                <b style="background: #0a0a0a; color: #2d2d2d">W</b>
+                <b style="background: #2d2d2d; color: #9ad1ff">A</b>
+                <b style="background: #9ad1ff; color: #e0e0e0">S</b>
+                <b style="background: #e0e0e0; color: #0a0a0a">D</b>
+              </div>
+            </div>
+            <span class="aufa_badge">Cherry &middot; PBT</span>
+            <h3>Black Ice</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.7 (95 ulasan)</small>
+            </div>
+            <p>Hitam doubleshot dengan legend putih kebiruan.</p>
+            <ul class="aufa_spec">
+              <li>Isi: 130+ keycaps</li>
+              <li>Profil: Cherry</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 240.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="kc6" data-name="Black Ice" data-price="240000">+ Keranjang</button>
+            </div>
+          </article>
+
+          <article class="aufa_card" data-name="mizu ocean" data-type="MT3" data-price="760000">
+            <div class="aufa_visual">
+              <div class="aufa_kc_vis">
+                <b style="background: #0b3d5c; color: #1c7ed6">E</b>
+                <b style="background: #1c7ed6; color: #74c0fc">S</b>
+                <b style="background: #74c0fc; color: #f1f3f5">C</b>
+                <b style="background: #f1f3f5; color: #0b3d5c">1</b>
+                <b style="background: #0b3d5c; color: #1c7ed6">W</b>
+                <b style="background: #1c7ed6; color: #74c0fc">A</b>
+                <b style="background: #74c0fc; color: #f1f3f5">S</b>
+                <b style="background: #f1f3f5; color: #0b3d5c">D</b>
+              </div>
+            </div>
+            <span class="aufa_badge">MT3 &middot; ABS</span>
+            <h3>Mizu Ocean</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.5 (148 ulasan)</small>
+            </div>
+            <p>Gradasi laut dalam dengan profil MT3 yang tebal.</p>
+            <ul class="aufa_spec">
+              <li>Isi: 130+ keycaps</li>
+              <li>Profil: MT3</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 760.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="kc7" data-name="Mizu Ocean" data-price="760000">+ Keranjang</button>
+            </div>
+          </article>
+
+          <article class="aufa_card" data-name="solar flare" data-type="Cherry" data-price="310000">
+            <div class="aufa_visual">
+              <div class="aufa_kc_vis">
+                <b style="background: #1a0f0a; color: #ff6b35">E</b>
+                <b style="background: #ff6b35; color: #ffd23f">S</b>
+                <b style="background: #ffd23f; color: #f4f4f4">C</b>
+                <b style="background: #f4f4f4; color: #1a0f0a">1</b>
+                <b style="background: #1a0f0a; color: #ff6b35">W</b>
+                <b style="background: #ff6b35; color: #ffd23f">A</b>
+                <b style="background: #ffd23f; color: #f4f4f4">S</b>
+                <b style="background: #f4f4f4; color: #1a0f0a">D</b>
+              </div>
+            </div>
+            <span class="aufa_badge">Cherry &middot; PBT</span>
+            <h3>Solar Flare</h3>
+            <div class="aufa_rating">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small>4.8 (201 ulasan)</small>
+            </div>
+            <p>Oranye api dan kuning matahari di atas dasar gelap.</p>
+            <ul class="aufa_spec">
+              <li>Isi: 130+ keycaps</li>
+              <li>Profil: Cherry</li>
+            </ul>
+            <div class="aufa_cardfoot">
+              <strong>Rp 310.000</strong>
+              <button type="button" class="aufa_btn aufa_add" data-id="kc8" data-name="Solar Flare" data-price="310000">+ Keranjang</button>
+            </div>
+          </article>
+        </div>
+
+        <p id="aufa_empty" class="aufa_empty">Produk tidak ditemukan.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Drawer Keranjang -->
+  <aside id="aufa_cart" class="aufa_cart">
+    <div class="aufa_cart_head">
+      <h3>Keranjang</h3>
+      <button type="button" id="aufa_cart_close" aria-label="Tutup">&times;</button>
+    </div>
+    <ul id="aufa_cart_list" class="aufa_cart_list"></ul>
+    <div class="aufa_cart_foot">
+      <p>Total: <strong id="aufa_cart_total">Rp 0</strong></p>
+      <button type="button" id="aufa_checkout" class="aufa_btn">Checkout</button>
+      <button type="button" id="aufa_clear" class="aufa_btn aufa_btn_ghost">Kosongkan</button>
+    </div>
+  </aside>
+
+  <div id="aufa_toast" class="aufa_toast"></div>
+
+  <!-- Newsletter -->
+  <section id="aufa_newsletter" class="aufa_section">
+    <div class="aufa_container">
+      <div class="aufa_banner">
+        <div>
+          <h2>Dapat info drop &amp; diskon pertama</h2>
+          <p>Gabung newsletter KeyForge dan dapatkan voucher 10% untuk pembelian pertama.</p>
+        </div>
+        <form id="aufa_news_form" class="aufa_news" novalidate>
+          <input id="aufa_news_email" class="aufa_input" type="email" placeholder="Email kamu" aria-label="Email newsletter">
+          <button class="aufa_btn" type="submit">Berlangganan</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="aufa_footer">
+    <div class="aufa_container aufa_foot_grid">
+      <div>
+        <div class="aufa_logo">
+          <i class="aufa_mark">K</i>
+          <em>KEY<span>FORGE</span>.id</em>
+        </div>
+        <p>Toko spare-part mechanical keyboard dan perakitan custom. Dibuat untuk para geek, oleh geek.</p>
+      </div>
+      <div>
+        <h4>Halaman</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="switch.html">Katalog Switch</a></li>
+          <li><a href="keycaps.html">Katalog Keycaps</a></li>
+          <li><a href="panduan.html">Build Guide</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Lainnya</h4>
+        <ul>
+          <li><a href="galeri.html">Galeri Setup</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="kontak.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontak</h4>
+        <p>
+          Tasikmalaya, Jawa Barat<br>
+          hello@keyforge.id<br>
+          +62 812-0000-2403
+        </p>
+      </div>
+    </div>
+    <div class="aufa_copy">
+      &copy; 2026 KeyForge.id &middot; UTS Pemrograman Internet &middot; Muhammad Aufa Al Achdan &middot; NIM 2403010063 &middot; Kelas C
+    </div>
+  </footer>
+
+  <button type="button" id="aufa_top" class="aufa_top" aria-label="Kembali ke atas">&uarr;</button>
+  <script src="aufa_script.js"></script>
+</body>
+</html>
